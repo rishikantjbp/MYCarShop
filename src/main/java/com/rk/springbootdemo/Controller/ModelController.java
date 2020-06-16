@@ -1,4 +1,4 @@
-package com.rk.springbootdemo.Model;
+package com.rk.springbootdemo.Controller;
 
 
 import java.util.List;
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.rk.springbootdemo.Model.Models;
+import com.rk.springbootdemo.Service.ModelService;
 
 @RestController
 public class ModelController {
